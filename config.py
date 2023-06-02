@@ -48,12 +48,9 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hᴀɪ {} 👋,
+    START_TXT = """<b>Hi {} 👋,
 **⚡ I am a powerful rename bot! 💪🔖**
-With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features, I can handle large files effortlessly. 
-Set a custom thumbnail to give your files a personalized touch 🎨👀, and add captions for easy organization 🗂️📋. 
-No more hassle with file names! Sit back and let me handle the renaming tasks with precision and efficiency. 
-Get ready for a seamless and hassle-free renaming experience with me! Let's get started! 💫🤖</b>"""
+With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features, I can handle large files effortlessly</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}

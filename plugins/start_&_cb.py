@@ -36,8 +36,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/PYRO_BOTZ_CHAT')
+        InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
+        InlineKeyboardButton('📞 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')

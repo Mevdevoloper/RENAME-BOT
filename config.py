@@ -70,7 +70,7 @@ With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍
 <b>➜</b> /set_caption - Set custom caption
 <b>➜</b> /see_caption - View youre current custom caption
 <b>➜</b> /del_caption - Delete youre current thumbnail
-<b>➜</b> /set_caption/n 📕 File Name: {filename}
+<b>➜</b> /set_caption\n 📕 File Name: {filename}
 💾 Size: {filesize}
 ⏰ Duration: {duration}         
 

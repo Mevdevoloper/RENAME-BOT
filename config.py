@@ -49,8 +49,8 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """<b>Hi {} 👋,
-**⚡ I am a powerful rename bot! 💪🔖**
-With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features, I can handle large files effortlessly</b>"""
+**⚡ I am a powerful rename bot! 💪🔖**\n 
+With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features,\n  I can handle large files effortlessly</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -59,36 +59,30 @@ With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Python 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mongo DB</a>
-├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/+8i6e-qyGQqwyNzA1>V3.0.0</a></b>     
-╰───────────────⍟ """
+├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/+8i6e-qyGQqwyNzA1>V3.0.0</a></b>     """
 
     HELP_TXT = """
 🌌 <b><u>How to Set Thumbnail</u></b>
   
-<b>•></b> /start Tʜᴇ Bᴏᴛ Aɴᴅ Sᴇɴᴅ Aɴy Pʜᴏᴛᴏ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟy Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ.
-<b>•></b> /del_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴɪʟᴇ.
-<b>•></b> /view_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴɪʟᴇ.
-📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ</u></b>
-<b>•></b> /set_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ ᴀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /del_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
+<b>➜</b> /start       - Start and send any photo to set auto thumbnail
+<b>➜</b> /del_thumb   - Delete youre current thumbnail
+<b>➜</b> /view_thumb  - View youre current thumbnail
+<b>➜</b> /set_caption - Set custom caption
+<b>➜</b> /see_caption - View youre current custom caption
+<b>➜</b> /del_caption - Delete youre current thumbnail\n
+Ex: /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 💾 Sɪᴢᴇ: {filesize}
-⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
-✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
-<b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/+4KDIm0IQ_NQ0NDdl>Support Chat</a>
+⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}         
+
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
    
 
     PROGRESS_BAR = """<b>\n
-╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
-┣→ 🗃️ Sɪᴢᴇ: {1} | {2}
-┣→ ⏳️ Dᴏɴᴇ : {0}%
-┣→ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣→ ⏰️ Eᴛᴀ: {4}
-╰━━━━━━━━━━━━━━━➣ </b>"""
+➤ SIZE : {1} | {2}
+➤ DONE : {0}%
+➤ SPEED: {3}/S
+➤ ETA  : {4} </b>"""
 
 

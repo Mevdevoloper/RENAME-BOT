@@ -52,7 +52,7 @@ class Txt(object):
 **⚡ I am a powerful rename bot! 💪🔖**\n 
 With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features,\n  I can handle large files effortlessly</b>"""
 
-    ABOUT_TXT = """<b>╭───────────⍟
+    ABOUT_TXT = """<b>
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
 ├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/+8i6e-qyGQqwyNzA1>There</a> 
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/+8i6e-qyGQqwyNzA1>There</a>
@@ -62,24 +62,24 @@ With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍
 ├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/+8i6e-qyGQqwyNzA1>V3.0.0</a></b>     """
 
     HELP_TXT = """
-🌌 <b><u>How to Set Thumbnail</u></b>
+🌌 <b><u>📚 Available Commands</u></b>
   
 <b>➜</b> /start       - Start and send any photo to set auto thumbnail
 <b>➜</b> /del_thumb   - Delete youre current thumbnail
 <b>➜</b> /view_thumb  - View youre current thumbnail
 <b>➜</b> /set_caption - Set custom caption
 <b>➜</b> /see_caption - View youre current custom caption
-<b>➜</b> /del_caption - Delete youre current thumbnail\n
-Ex: /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
-💾 Sɪᴢᴇ: {filesize}
-⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}         
+<b>➜</b> /del_caption - Delete youre current thumbnail
+<b>➜</b> /set_caption/n 📕 File Name: {filename}
+💾 Size: {filesize}
+⏰ Duration: {duration}         
 
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
    
 
-    PROGRESS_BAR = """<b>\n
+    PROGRESS_BAR = """<b>
 ➤ SIZE : {1} | {2}
 ➤ DONE : {0}%
 ➤ SPEED: {3}/S

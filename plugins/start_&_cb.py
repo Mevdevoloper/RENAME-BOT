@@ -56,13 +56,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
-                InlineKeyboardButton('📞 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
+                InlineKeyboardButton('📢  ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
+                InlineKeyboardButton('📞 sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
                 ],[
-                InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🎛️ ᴀʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('🛠️ ʜᴇʟᴩ', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -71,8 +71,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
             ]])            
         )
     elif data == "about":

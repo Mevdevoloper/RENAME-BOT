@@ -34,13 +34,13 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs 💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
-        InlineKeyboardButton('📞 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
+        InlineKeyboardButton('📢 ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
+        InlineKeyboardButton('🗣️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
         ],[
-        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🌟 ʜᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -56,13 +56,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs💻", callback_data='dev')
+                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs 💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📢  ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
-                InlineKeyboardButton('📞 sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
+                InlineKeyboardButton('📢 ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
+                InlineKeyboardButton('🗣️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
                 ],[
-                InlineKeyboardButton('🎛️ ᴀʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ ʜᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('🌟 ʜᴇʟᴩ', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -71,8 +71,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link
-                InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⨯ ᴄʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("← ʙᴀᴄᴋ", callback_data = "start")
             ]])            
         )
     elif data == "about":
@@ -81,8 +81,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⨯ ᴄʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("← ʙᴀᴄᴋ", callback_data = "start")
             ]])            
         )
     elif data == "dev":
@@ -91,8 +91,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("⨯ ᴄʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("← ʙᴀᴄᴋ", callback_data = "start")
             ]])          
         )
     elif data == "close":

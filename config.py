@@ -83,6 +83,7 @@ With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍
 ➤ SIZE : {1} | {2}
 ➤ DONE : {0}%
 ➤ SPEED: {3}/S
-➤ ETA  : {4} </b>"""
+➤ ETA  : {4}\n
+Thank You for Using @AdvancedRename_bot</b>"""
 
 

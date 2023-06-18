@@ -53,16 +53,15 @@ class Txt(object):
 With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features,\n  I can handle large files effortlessly</b>"""
 
     ABOUT_TXT = """<b>
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/+8i6e-qyGQqwyNzA1>There</a> 
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/+8i6e-qyGQqwyNzA1>There</a>
-├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyrogram</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Python 3</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mongo DB</a>
-├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/+8i6e-qyGQqwyNzA1>V3.0.0</a></b>     """
+📮 Channel   : <a href=https://t.me/CodeMasterTG>Code Master Bots</a> 
+👥 Group     : <a href=https://t.me/+4KDIm0IQ_NQ0NDdl>Support Chat</a>
+🧰 Framework : <a href=https://github.com/pyrogram>Pyrogram</a>
+📝 Language  : <a href=https://www.python.org>Python 3</a>
+🗂 Data Base : <a href=https://cloud.mongodb.com>Mongo DB</a>
+🪤 Version   : <a href=https://t.me/+8i6e-qyGQqwyNzA1>V3.0.0</a></b>     """
 
     HELP_TXT = """
-🌌 <b><u>📚 Available Commands</u></b>
+ <b><u>📚 Available Commands</u></b>
   
 <b>➜</b> /start       - Start and send any photo to set auto thumbnail
 <b>➜</b> /del_thumb   - Delete youre current thumbnail

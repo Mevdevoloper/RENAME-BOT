@@ -33,15 +33,15 @@ from config import Config, Txt
 async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
-    button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs 💻", callback_data='dev')
-        ],[
+    button = InlineKeyboardMarkup([
+      [
         InlineKeyboardButton('📢 ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
         InlineKeyboardButton('🗣️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
         ],[
         InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🌟 ʜᴇʟᴩ', callback_data='help')
-    ]])
+    ]
+    ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
     else:
@@ -55,9 +55,8 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
-            reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀs 💻", callback_data='dev')
-                ],[
+            reply_markup = InlineKeyboardMarkup([
+              [
                 InlineKeyboardButton('📢 ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+8i6e-qyGQqwyNzA1'),
                 InlineKeyboardButton('🗣️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+4KDIm0IQ_NQ0NDdl')
                 ],[

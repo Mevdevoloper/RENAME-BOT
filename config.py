@@ -49,8 +49,8 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """<b>Hi {} 👋,
-**⚡ I am a powerful rename bot! 💪🔖**\n 
-With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍️📝 features,\n  I can handle large files effortlessly</b>"""
+**I am a powerful rename bot!**\n 
+With 2GB+ file support and custom thumbnail and caption features,\n  I can handle large files effortlessly</b>"""
 
     ABOUT_TXT = """<b>
 📮 Channel   : <a href=https://t.me/CodeMasterTG>Code Master Bots</a> 
@@ -69,7 +69,7 @@ With 2GB+ file support 📁🚀 and custom thumbnail 🌄🖼️ and caption ✍
 <b>➜</b> /set_caption - Set custom caption
 <b>➜</b> /see_caption - View youre current custom caption
 <b>➜</b> /del_caption - Delete youre current thumbnail
-<b>➜</b> /set_caption\n 📕 File Name: {filename}
+<b>➜</b> /set_caption\n\n 📕 File Name: {filename}
 💾 Size: {filesize}
 ⏰ Duration: {duration}         
 
